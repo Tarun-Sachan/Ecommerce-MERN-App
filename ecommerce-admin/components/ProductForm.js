@@ -12,12 +12,14 @@ const ProductForm = ({
   price: existingPrice,
   images: existingImages,
   category: assignedCategory,
-  properties:assignedProperties
+  properties: assignedProperties,
 }) => {
   const [title, setTitle] = useState(existingTitle || "");
   const [description, setDescription] = useState(existingDescription || "");
   const [category, setCategory] = useState(assignedCategory || "");
-  const [productProperties, setProductProperties] = useState(assignedProperties || {});
+  const [productProperties, setProductProperties] = useState(
+    assignedProperties || {}
+  );
   const [price, setPrice] = useState(existingPrice || "");
   const [images, setImages] = useState(existingImages || []);
   const [goToProducts, setGoToProducts] = useState(false);
@@ -86,20 +88,20 @@ const ProductForm = ({
     });
   };
 
-  let propertiesToFill = [];
+  const propertiesToFill = [];
   if (categories.length > 0 && category) {
     let catInfo = categories.find(({ _id }) => _id === category);
-    console.log(catInfo);
+    
     propertiesToFill.push(...catInfo.properties);
-    console.log(catInfo);
+
     while (catInfo?.parent?._id) {
       const parentCat = categories.find(
         ({ _id }) => _id === catInfo?.parent?._id
       );
-      propertiesToFill.push(parentCat.properties);
+      propertiesToFill.push(...parentCat.properties);
       catInfo = parentCat;
-      console.log(catInfo);
     }
+    console.log({ catInfo });
   }
 
   return (
@@ -137,6 +139,9 @@ const ProductForm = ({
             </select>
           </div>
         ))}
+      
+
+
       <label>Photos</label>
       <div className="mb-2 flex flex-wrap gap-2">
         <ReactSortable
