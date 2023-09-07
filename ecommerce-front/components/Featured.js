@@ -6,6 +6,7 @@ import ButtonLink from "./ButtonLink";
 import CartIcon from "./icons/CartIcon";
 import { CartContext } from "./CartContext";
 
+
 const Bg = styled.div`
   background-color: #222;
   color: #fff;
@@ -41,10 +42,9 @@ const ButtonsWrapper = styled.div`
   margin-top: 25px;
 `;
 const Featured = ({ product }) => {
-
-  const {addProduct}=useContext(CartContext)
-  function addFeaturedToCart  (){
-    addProduct(prev=>[...prev,product._id])
+  const { addProduct } = useContext(CartContext);
+  function addFeaturedToCart() {
+    addProduct(product._id);
   }
   return (
     <Bg>
@@ -55,11 +55,15 @@ const Featured = ({ product }) => {
               <Title>{product.title}</Title>
               <Desc>{product.description}</Desc>
               <ButtonsWrapper>
-                <ButtonLink href={"/products/"+product._id} white={1} outline={1}>
+                <ButtonLink
+                  href={"/products/" + product._id}
+                  white={1}
+                  outline={1}
+                >
                   Read More
                 </ButtonLink>
                 <Button primary={1} onClick={addFeaturedToCart}>
-                <CartIcon />
+                  <CartIcon />
                   Add to Cart
                 </Button>
               </ButtonsWrapper>

@@ -6,7 +6,6 @@ import { mongooseConnect } from "@/lib/mongoose";
 import NewProducts from "@/components/NewProducts";
 
 const Homepage = ({ featuredProduct, newProducts }) => {
-  console.log({ newProducts });
   return (
     <div>
       <Header />

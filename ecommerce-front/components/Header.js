@@ -6,9 +6,14 @@ import { CartContext } from "./CartContext";
 
 const StyledHeader = styled.header`
   background-color: #222;
+  
 `;
 const Logo = styled(Link)`
   color: #fff;
+  text-decoration: none;
+  font-weight: 900;
+  
+
 `;
 const Wrapper = styled.div`
   display: flex;
