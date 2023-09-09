@@ -20,7 +20,7 @@ Features:
 
 ## Screenshots
 
-#Front-End
+Shopping App Front-End
 ![front](https://github.com/Tarun-Sachan/mern-whatsapp-api/assets/117214735/6f19e943-65ba-44f9-b89f-b40570d1a9fa)
 
 
@@ -32,6 +32,21 @@ Features:
 ![stripe](https://github.com/Tarun-Sachan/mern-whatsapp-api/assets/117214735/0d09d9c3-a645-4988-ac8c-7cd63ed9a4b3)
 
 ![thx for order](https://github.com/Tarun-Sachan/mern-whatsapp-api/assets/117214735/9508f97d-55a6-467e-a0d4-4178f6aac372)
+
+
+Admin Panel
+
+![add new product](https://github.com/Tarun-Sachan/mern-whatsapp-api/assets/117214735/28121417-6af5-4bea-b585-fa3aa3cf6c06)
+
+![existing products](https://github.com/Tarun-Sachan/mern-whatsapp-api/assets/117214735/9192a28f-dd91-46f5-95db-c7a1d44eb663)
+
+![product categories](https://github.com/Tarun-Sachan/mern-whatsapp-api/assets/117214735/e9380f03-9f5e-4111-9399-214f1591ec6d)
+
+![edit product](https://github.com/Tarun-Sachan/mern-whatsapp-api/assets/117214735/41793798-3099-43e9-b8f8-09e3878f3540)
+
+![order details](https://github.com/Tarun-Sachan/mern-whatsapp-api/assets/117214735/4ce3ef30-ff69-408a-a1ac-f453102b2bcb)
+
+![responsive](https://github.com/Tarun-Sachan/mern-whatsapp-api/assets/117214735/6f7daf3e-38b1-4181-b1a1-32991716b879)
 
 
 ## Technologies Used
