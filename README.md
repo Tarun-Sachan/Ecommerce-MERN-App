@@ -19,7 +19,7 @@ Shopping App Front-End -
 
 3.Designed an intuitive and responsive user interface using Styled Components.
 
-4.Integrated Stripe checkout functionality.
+4.Integrated Payment integration with Stripe.
 
 5.All successful orders are stored on DB and can be viewed on Admin Panel.
 
