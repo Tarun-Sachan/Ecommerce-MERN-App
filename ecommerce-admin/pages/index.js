@@ -32,5 +32,5 @@ export default function Home() {
       </div>
     </Layout>
   );
-  return <div>Logged in</div>;
+  
 }
