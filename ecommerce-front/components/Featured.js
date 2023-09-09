@@ -6,7 +6,6 @@ import ButtonLink from "./ButtonLink";
 import CartIcon from "./icons/CartIcon";
 import { CartContext } from "./CartContext";
 
-
 const Bg = styled.div`
   background-color: #222;
   color: #fff;
@@ -15,7 +14,10 @@ const Bg = styled.div`
 const Title = styled.h1`
   margin: 0;
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 2rem;
+  @media screen and (min-width: 768px) {
+    font-size: 3rem;
+  }
 `;
 const Desc = styled.p`
   color: #aaa;
@@ -24,10 +26,27 @@ const Desc = styled.p`
 
 const ColumnsWrapper = styled.div`
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
   gap: 40px;
+  grid-template-columns: 1fr;
+
+  div:nth-child(1) {
+    order: 2;
+  }
+
   img {
     max-width: 100%;
+    max-height: 200px;
+    display: block;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1.1fr 0.9fr;
+    div:nth-child(1) {
+      order: 0;
+    }
+    img {
+      max-width: 100%;
+    }
   }
 `;
 
@@ -56,7 +75,7 @@ const Featured = ({ product }) => {
               <Desc>{product.description}</Desc>
               <ButtonsWrapper>
                 <ButtonLink
-                  href={"/products/" + product._id}
+                  href={"/product/" + product._id}
                   white={1}
                   outline={1}
                 >

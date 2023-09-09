@@ -12,10 +12,7 @@ const Products = () => {
   }, []);
   return (
     <Layout>
-      <Link
-        className="bg-blue-900 text-white  py-1 px-2 rounded-md"
-        href="/products/new"
-      >
+      <Link className="btn-primary" href="/products/new">
         Add new product
       </Link>
       <table className="basic mt-2">
@@ -30,7 +27,10 @@ const Products = () => {
             <tr key={item._id}>
               <td>{item.title}</td>
               <td>
-                <Link href={"/products/edit/" + item._id}>
+                <Link
+                  href={"/products/edit/" + item._id}
+                  className=" btn-default"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -47,14 +47,14 @@ const Products = () => {
                   </svg>
                   Edit
                 </Link>
-                <Link href={"/products/delete/" + item._id}>
+                <Link href={"/products/delete/" + item._id} className="btn-red">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
                     stroke="currentColor"
-                    className="w-6 h-6"
+                    className="w-6 h-6 "
                   >
                     <path
                       strokeLinecap="round"

@@ -13,9 +13,12 @@ import { CartContext } from "@/components/CartContext";
 
 const ColWrapper = styled.div`
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-columns: 1fr;
+  @media screen and (min-width: 768px) {
+    grid-template-columns: 1fr;
+  }
   gap: 40px;
-  margin-top: 40px;
+  margin: 40px 0;
 `;
 const PriceRow = styled.div`
   gap: 20px;
@@ -26,7 +29,7 @@ const Price = styled.span`
   font-size: 1.4rem;
 `;
 const ProductPage = ({ product }) => {
-    const {addProduct} = useContext(CartContext)
+  const { addProduct } = useContext(CartContext);
   return (
     <>
       <Header />
@@ -43,7 +46,7 @@ const ProductPage = ({ product }) => {
                 <Price>Rs. {product.price}</Price>
               </div>
               <div>
-                <Button primary={1} onClick={()=>addProduct(product._id)} >
+                <Button primary={1} onClick={() => addProduct(product._id)}>
                   <CartIcon /> Add to cart
                 </Button>
               </div>
