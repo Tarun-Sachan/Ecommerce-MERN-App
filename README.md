@@ -18,31 +18,43 @@ Features:
 4.Utilized Express.js to build RESTful APIs for message handling.
 
 
-## [Live Demo](https://whatsapp-frontend-one.vercel.app/)
+## Screenshots
 
-![Screenshot 2023-08-17 at 15-01-23 React App](https://github.com/Tarun-Sachan/whatsapp-api-mern/assets/117214735/59c0435d-293e-4ea8-80b9-ce3bac704136)
-
-![Screenshot 2023-08-17 at 15-00-54 Data Cloud MongoDB Cloud](https://github.com/Tarun-Sachan/whatsapp-api-mern/assets/117214735/d579b8eb-7e94-4f21-8b5a-c5dde6de8b09)
+#Front-End
 
 
 ## Technologies Used
 
-**Client:** ReactJS, HTML, CSS, JavaScript
+**Store Front-End:** NextJS, ReactJS, HTML, CSS, JavaScript, styled components, MongoDB, Stripe
 
-**Server:** NodeJS, Express, MongoDB
+**Admin Store Management:** NextJS, ReactJS, HTML, CSS, JavaScript, Tailwind CSS, MongoDB, NextAuth, Amazon Web Services
 
 
 ## Future Updates
 
-1.Add login interface for user and individual chat rooms.
+To the store front -
+1.Add categories and user account page.
 
-2.Add chat end to end encryption.
+2.Add categories sorting in store front-end.
+
+3.Add user login and authentication for order management and features like wishlist.
+
+To the admin store management-
+1.Integrate order tracking and order rejection.
+2.Add setting page to the store.
+
+
+## Current known Bugs
+
+1. When trying to implement LogOut functionality. User is unable to login again. Current solution is to drop table and loose all store data. Therefore I have not included the logout function in this build.
 
 ## Acknowledgements
 
  1. [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css)
  2. [Udemy](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
- 3. [Free Code Camp](https://www.youtube.com/@freecodecamp)
+ 3. [Free Code Camp](https://www.youtube.com/@freecodecamp)4
+ 4. [NextAuth](https://next-auth.js.org/getting-started/introduction)
+
 
 
 
