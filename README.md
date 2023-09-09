@@ -12,6 +12,7 @@ Features:
 
 Shopping App Front-End -
 <br>
+
 1.Web App is build using NEXT.js.
 
 2.Implemented product fetching with server side props to increase SEO.
@@ -24,6 +25,7 @@ Shopping App Front-End -
 
 Shopping App Admin Panel -
 <br>
+
 1.Web app is build using NEXT.js.
 
 2.Implemented user login and authentication with NextAuth.
@@ -77,6 +79,7 @@ Admin Panel
 ## Future Updates
 
 To the store front -
+<br>
 1.Add categories and user account page.
 
 2.Add categories sorting in store front-end.
