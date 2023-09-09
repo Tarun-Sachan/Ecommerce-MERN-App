@@ -1,21 +1,37 @@
 ﻿# Ecommerce MERN App
 
- [LIVE DEMO](https://ecommerce-mern-app-mqcs.vercel.app/)
+ [LIVE DEMO Store FontEnd](https://ecommerce-mern-app-mqcs.vercel.app/)
+ [LIVE DEMO ADMIN PANEL](https://ecommerce-mern-app-pearl.vercel.app/)
 
                    
 
-Fully responsive full stack MERN shopping app with STRIPE payment integration. Fully responsive front-end using NEXT.js. Fully responsive admin panel to add products and view successful orders with Next-Auth. 
+Fully responsive full stack MERN shopping app with Stripe payment integration. Fully responsive front-end using NEXT.js. Fully responsive admin panel to add products and view successful orders with Next-Auth. App is hosted on Vercel
 Note- Please wait for Vercel to fetch data from backend.
 
 Features:
 
-1.Implemented end-to-end chat functionality using Pusher, enabling real-time message updates without manual refreshing.
+Shopping App Front-End
+1.Web App is build using NEXT.js.
 
-2.Designed an intuitive and responsive user interface using React, optimizing the user experience across devices.
+2.Implemented product fetching with server side props to increase SEO.
 
-3.Set up a MongoDB database to store user messages data.
+2.Designed an intuitive and responsive user interface using Styled Components.
 
-4.Utilized Express.js to build RESTful APIs for message handling.
+3.Integrated Stripe checkout functionality.
+
+4.All successful orders are stored on DB and can be viewed on Admin Panel.
+
+Shopping App Admin Panel
+1.Web app is build using NEXT.js.
+
+2.Implemented user login and authentication with NextAuth.
+
+3.Functionality like adding and removing products, adding and removing product categories, view all successful orders was implemented.
+
+4.Designed using tailwind CSS. Layout is responsive as well.
+
+5.Product image functionality is added by using Amazon Web Services.
+
 
 
 ## Screenshots
@@ -72,13 +88,13 @@ To the admin store management-
 
 ## Current known Bugs
 
-1. When trying to implement LogOut functionality. User is unable to login again. Current solution is to drop table and loose all store data. Therefore I have not included the logout function in this build.
+1. When trying to implement Log Out functionality. User is unable to login again. Current solution is to drop table and loose all store data. Therefore I have not included the logout function in this build.
 
 ## Acknowledgements
 
  1. [The Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css)
  2. [Udemy](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
- 3. [Free Code Camp](https://www.youtube.com/@freecodecamp)4
+ 3. [Free Code Camp](https://www.youtube.com/@freecodecamp)
  4. [NextAuth](https://next-auth.js.org/getting-started/introduction)
 
 
