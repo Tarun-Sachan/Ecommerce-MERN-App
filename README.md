@@ -10,7 +10,7 @@ Note- Please wait for Vercel to fetch data from backend.
 
 Features:
 
-Shopping App Front-End
+Shopping App Front-End -<br>
 1.Web App is build using NEXT.js.
 
 2.Implemented product fetching with server side props to increase SEO.
@@ -21,7 +21,7 @@ Shopping App Front-End
 
 4.All successful orders are stored on DB and can be viewed on Admin Panel.
 
-Shopping App Admin Panel
+Shopping App Admin Panel -<br>
 1.Web app is build using NEXT.js.
 
 2.Implemented user login and authentication with NextAuth.
