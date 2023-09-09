@@ -1,7 +1,7 @@
 ﻿# Ecommerce MERN App
 
- [LIVE DEMO Store FontEnd](https://ecommerce-mern-app-mqcs.vercel.app/)<br>
- [LIVE DEMO ADMIN PANEL](https://ecommerce-mern-app-pearl.vercel.app/)
+ [Live DEMO Store FontEnd](https://ecommerce-mern-app-mqcs.vercel.app/)<br>
+ [Live DEMO ADMIN PANEL](https://ecommerce-mern-app-pearl.vercel.app/)
 
                    
 
