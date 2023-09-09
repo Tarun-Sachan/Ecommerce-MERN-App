@@ -17,11 +17,11 @@ Shopping App Front-End -
 
 2.Implemented product fetching with server side props to increase SEO.
 
-2.Designed an intuitive and responsive user interface using Styled Components.
+3.Designed an intuitive and responsive user interface using Styled Components.
 
-3.Integrated Stripe checkout functionality.
+4.Integrated Stripe checkout functionality.
 
-4.All successful orders are stored on DB and can be viewed on Admin Panel.
+5.All successful orders are stored on DB and can be viewed on Admin Panel.
 
 Shopping App Admin Panel -
 <br>
