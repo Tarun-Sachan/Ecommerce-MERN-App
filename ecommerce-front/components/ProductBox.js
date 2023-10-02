@@ -4,7 +4,6 @@ import Button from "./Button";
 import CartIcon from "./icons/CartIcon";
 import { CartContext } from "./CartContext";
 import Link from "next/link";
-import FlyingButton from "react-flying-item";
 
 const ProductWrapper = styled.div``;
 const WhiteBox = styled(Link)`
@@ -69,12 +68,7 @@ const ProductBox = ({ _id, title, description, price, images }) => {
         <PriceRow>
           <Price>Rs.{price}</Price>
 
-          <Button
-            src={images[0]}
-            onClick={() => addProduct(_id)}
-            primary={1}
-            outline={1}
-          >
+          <Button onClick={() => addProduct(_id)} primary={1} outline={1}>
             Add to cart
           </Button>
         </PriceRow>
