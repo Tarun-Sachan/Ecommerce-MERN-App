@@ -4,6 +4,7 @@ import Button from "./Button";
 import CartIcon from "./icons/CartIcon";
 import { CartContext } from "./CartContext";
 import Link from "next/link";
+import FlyingButton from "react-flying-item";
 
 const ProductWrapper = styled.div``;
 const WhiteBox = styled(Link)`
@@ -35,7 +36,7 @@ const PriceRow = styled.div`
   display: block;
   @media screen and (min-width: 768px) {
     display: flex;
-    gap:5px;
+    gap: 5px;
   }
   align-items: center;
   justify-content: space-between;
@@ -67,7 +68,13 @@ const ProductBox = ({ _id, title, description, price, images }) => {
         <Title href={url}>{title}</Title>
         <PriceRow>
           <Price>Rs.{price}</Price>
-          <Button onClick={() => addProduct(_id)} primary={1} outline={1}>
+
+          <Button
+            src={images[0]}
+            onClick={() => addProduct(_id)}
+            primary={1}
+            outline={1}
+          >
             Add to cart
           </Button>
         </PriceRow>
