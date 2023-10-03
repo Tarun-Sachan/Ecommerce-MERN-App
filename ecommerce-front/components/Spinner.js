@@ -5,7 +5,7 @@ import styled from "styled-components";
 const Wrapper = styled.div`
   ${(props) =>
     props.fullWidth
-      ? `display:flex;justify-content:center;margin-top:100px;`
+      ? `display:flex;justify-content:center;margin-top:40px;`
       : `border: 0px solid blue`}
 `;
 const Spinner = ({ fullWidth }) => {

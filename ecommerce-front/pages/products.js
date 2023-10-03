@@ -5,7 +5,9 @@ import { mongooseConnect } from "@/lib/mongoose";
 import { Product } from "@/models/Product";
 import styled from "styled-components";
 import Title from "@/components/Title";
+import { useRef } from "react";
 export default function ProductPage({ products }) {
+  
   return (
     <>
       <Header />
