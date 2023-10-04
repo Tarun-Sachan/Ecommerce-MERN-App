@@ -60,6 +60,7 @@ export default function SearchPage() {
           <h1>No products found</h1>
         )}
         {isLoading && <Spinner fullWidth={true} />}
+        {!isLoading && phrase === "" &&(<h1>Search Products</h1>)}
         {!isLoading && products.length > 0 && (
           <ProductsGrid products={products} />
         )}
