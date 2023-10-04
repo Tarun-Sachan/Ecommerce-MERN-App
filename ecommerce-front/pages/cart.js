@@ -98,12 +98,12 @@ const CartPage = () => {
       clearCart();
     }
     axios.get("/api/address").then((response) => {
-      setName(response.data.name);
-      setEmail(response.data.email);
-      setCity(response.data.city);
-      setPostalCode(response.data.postalCode);
-      setStreetAddress(response.data.streetAddress);
-      setCountry(response.data.country);
+      setName(response.data?.name);
+      setEmail(response.data?.email);
+      setCity(response.data?.city);
+      setPostalCode(response.data?.postalCode);
+      setStreetAddress(response.data?.streetAddress);
+      setCountry(response.data?.country);
       
     });
   }, []);
