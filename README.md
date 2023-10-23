@@ -1,11 +1,11 @@
-﻿# Ecommerce MERN App
+﻿# Ecommerce NEXT.js App
 
  [Live DEMO Store FontEnd](https://ecommerce-mern-app-mqcs.vercel.app/)<br>
  [Live DEMO ADMIN PANEL](https://ecommerce-mern-app-pearl.vercel.app/)
 
                    
 
-Fully responsive full stack MERN shopping app with Stripe payment integration. Fully responsive front-end using NEXT.js. Fully responsive admin panel to add products and view successful orders with Next-Auth. App is hosted on Vercel
+Fully responsive full stack shopping app with Stripe payment integration. Fully responsive front-end using NEXT.js. Fully responsive admin panel to add products and view successful orders with Next-Auth. App is hosted on Vercel
 Note- Please wait for Vercel to fetch data from backend.
 
 Features:
